@@ -3,7 +3,7 @@
 ## Make a Dockerfile
 ```
 FROM ubuntu:latest
-MAINTAINER Jan Sanchez, joejansanchez@gmail.com
+MAINTAINER Ate
 
 RUN apt-get update && apt-get install -y \
   wget \
@@ -25,12 +25,12 @@ RUN ln -sf /opt/node/bin/npm /usr/bin/npm
 
 ## Build docker image of Ubuntu + Node
 ```
-docker build -t jansanchez/node-ubuntu .
+docker build -t infinity345/windowsautomationtest .
 ```
 
 ## Run docker image of Ubuntu + Node in a container
 ```
-docker run -it -d jansanchez/node-ubuntu
+docker run -it -d infinity345/windowsautomationtest
 ```
 
 ## To go inside the last created container
