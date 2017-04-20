@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Jan Sanchez, joejansanchez@gmail.com
+MAINTAINER Ate
 
 RUN apt-get update && apt-get install -y \
   wget \
